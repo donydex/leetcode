@@ -1,4 +1,4 @@
-# 169. Majority Element
+# Majority Element
 [link](https://leetcode.com/problems/majority-element/description/)
 
 Solution1:
@@ -33,7 +33,7 @@ class Solution {
 }
 ```
 
-20. Valid Parentheses
+# Valid Parentheses
 ```
 class Solution {
     public boolean isValid(String s) {
@@ -55,7 +55,7 @@ class Solution {
 }
 ```
 
-66.Plus One 
+# Plus One 
 
 [link](https://leetcode.com/problems/plus-one/description/)
 
@@ -78,7 +78,7 @@ class Solution {
 }
  ```
  
- #118. Pascal's Triangle
+ # Pascal's Triangle
  [link](https://leetcode.com/problems/pascals-triangle/description/)
  ```
  class Solution {
