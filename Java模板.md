@@ -46,3 +46,22 @@ public int get_length(Node head) {
     return length;
 }
 ```
+- 链表倒数第k个节点
+```
+public ListNode nthToLast(ListNode head, int n) {
+    // write your code here
+    if(head == null || n < 1)
+        return null;
+    ListNode n1 = head;
+    ListNode n2 = head;
+    for(int i=0;i<n;i++){
+        if(n1 == null) return null;
+        n1 = n1.next;
+    }
+    while(n1!=null){
+        n1 = n1.next;
+        n2 = n2.next;
+    }
+    return n2;
+}
+```
